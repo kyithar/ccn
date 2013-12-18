@@ -1,0 +1,39 @@
+version 2
+run General-0-20131212-16:40:30-9591
+attr D lce
+attr F spr
+attr R lru
+attr a 1
+attr configname General
+attr datetime 20131212-16:40:30
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars "$net=abilene, $rep=0, $a=1, $F=spr, $ttl=1000, $D=lce, $R=lru"
+attr iterationvars2 "$net=abilene, $rep=0, $a=1, $F=spr, $ttl=1000, $D=lce, $R=lru, $repetition=0"
+attr measurement "$net=abilene, $rep=0, $a=1, $F=spr, $ttl=1000, $D=lce, $R=lru"
+attr net abilene
+attr network networks.${net=abilene}_network
+attr processid 9591
+attr rep 0
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+attr ttl 1000
+
+scalar . 	a 	1
+scalar . 	rep 	0
+scalar . 	ttl 	1000
+scalar abilene_network.content_distribution 	repo-0 	5
+scalar abilene_network.content_distribution 	client-0 	0
+scalar abilene_network.content_distribution 	client-1 	3
+scalar abilene_network.content_distribution 	client-2 	7
+scalar abilene_network.content_distribution 	client-3 	9
+scalar abilene_network.content_distribution 	client-4 	5
+scalar abilene_network.content_distribution 	client-5 	2
+scalar abilene_network.content_distribution 	client-6 	4
+scalar abilene_network.content_distribution 	client-7 	6
+scalar abilene_network.content_distribution 	client-8 	8
+scalar abilene_network.content_distribution 	client-9 	10
+scalar abilene_network.content_distribution 	client-10 	1
