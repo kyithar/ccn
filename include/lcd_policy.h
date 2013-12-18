@@ -37,8 +37,9 @@ class LCD: public DecisionPolicy{
 	virtual bool data_to_cache(ccn_data *msg){
 	    //cout<<"Capacity:"<<msg->get_chunk_num()<<endl;
 	    double d = msg->getHops();
-	    if ( d==1 )
-		return true;
+	    if ( d==1 ){
+		  return true;
+	    }
 	    return false;
 	}
 };
